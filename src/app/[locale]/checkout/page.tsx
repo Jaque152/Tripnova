@@ -187,8 +187,8 @@ function CheckoutContent() {
                     <T>Método de Pago</T>
                   </h2>
                   <div className="h-8 opacity-90 px-4 py-1.5 rounded-lg flex items-center">
-                     {/* Imagen Etomin Logo */}
-                     <img src="/etomin_logo.svg" alt="Powered by Etomin" className="h-full object-contain brightness-0 invert" />
+                     {/* Imagen Octano Logo */}
+                     <img src="/logo-octano-2.png" alt="Powered by Etomin" className="h-full object-contain brightness-0 invert" />
                   </div>
                 </div>
                   
