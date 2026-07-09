@@ -57,6 +57,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm font-medium text-background/60">
               <li><Link href={`/${locale}/aviso-de-privacidad`} className="hover:text-primary transition-colors"><T>Aviso de Privacidad</T></Link></li>
               <li><Link href={`/${locale}/terminos-y-condiciones`} className="hover:text-primary transition-colors"><T>Términos y Condiciones</T></Link></li>
+              <li><Link href={`/${locale}/politica-de-cancelacion`} className="hover:text-primary transition-colors"><T>Política de Reembolsos, Cancelaciones y Devoluciones</T></Link></li>
             </ul>
           </div>
 
