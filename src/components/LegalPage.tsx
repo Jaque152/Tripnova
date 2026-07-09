@@ -41,10 +41,10 @@ export function LegalPage({ title, sections }: LegalPageProps) {
                 {sections.map((section, index) => (
                   <div key={index} className="scroll-mt-32">
                     <h2 className="text-3xl font-black text-slate-900 mb-6 tracking-tight">
-                      <T>{section.heading}</T>
+                      {section.heading} {/* SIN la etiqueta <T> */}
                     </h2>
                     <p className="text-slate-600 font-medium text-lg leading-relaxed whitespace-pre-line">
-                      <T>{section.content}</T>
+                      {section.content} {/* SIN la etiqueta <T> */}
                     </p>
                   </div>
                 ))}
